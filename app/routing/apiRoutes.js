@@ -3,8 +3,8 @@
 // We are linking our routes to a series of "data" sources.
 // These data sources hold arrays of information on table-data, waitinglist, etc.
 // ===============================================================================
-
-var friends = require("app/data/friends");
+var path = require("path");
+var friends = require(path.join(__dirname, "../data/friends.js"));
 
 
 
